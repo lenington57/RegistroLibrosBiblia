@@ -117,33 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LibrosBibliaToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPY6AYVHTP+Y8N10yY97Kqe453Vfds32ogG5sa
-        EAYbgA3cefj0f/WE+a9re+e+efDy/f+Hrz9hYLwGwAA2jTCMYkBaZT8GBgGQQmxyGAbgAsg2ouNRF5Dp
-        ApwG4ALIGtAx3ABKMENA7fZzflVb/6Njn4ptf2tXPPpfs/IRkL31LzY1gbXbzkCzFCbwrdzq6le17SVQ
-        4Uu/6i0uUGFqAwYGAMAemlaeFDpVAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGZSURBVDhPpZI9T8JAHIdZfPkEDOrgZOKkq1/IaEQHX6C0
-        1MbFIPRoa4wJSFvKq7o4KQSMugtGBhRIHFhAMYYEwYBA6rVe0hpqhPgkv+Tenrve9W/6DYo6HSXZgIXk
-        ggXcIzaVwHae8Igri17vCFpmDA4CkyQjFfePE43LXEW+LbfUpGCbiyUaDjZQ2NrzT6DlP6EocZxgpafY
-        dbabfZNlo8Su7rsEJxVXOW4MaRqYR9hkIvGmkagPEzlvYIywjjSNbXhn5VONJH1SubIM1z4gTcMO+Hbm
-        pWMo6ZN+/pRxWmghTePfG5BcaIgrhPqvgAF+jQlffBhJ+qiPCAQL0jRsjDhNsIFOOJkxFJWEkmn1NyrF
-        hrRvlOLAgVDC3H7ZwUptNpp4VwrprtpVoxZSNF43LCSM9s1AuUpyUo8AQoFyB812ml+G/TxG8x0lDjb4
-        CDdf6itlG+Dn4IvWdg7CPRyIpQ33oRlN/Q3m8i/Ak+u7vpOeHQgVq9M3haYGA8qvtHgGT+ZrVufRLBoe
-        HMIj3Cib4C7fPBoaApPpC2R81S0zU4bgAAAAAElFTkSuQmCC
-</value>
-  </data>
 </root>

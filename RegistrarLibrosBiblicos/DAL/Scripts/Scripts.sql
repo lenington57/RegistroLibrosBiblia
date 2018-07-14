@@ -1,1 +1,3 @@
-CREATE DATABASE BibliaDb
+--CREATE DATABASE BibliaDb
+
+select * from LibrosBiblias
