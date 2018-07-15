@@ -18,7 +18,7 @@ namespace RegistrarLibrosBiblicos.Entidades
 
         public string Siglas { get; set; }
 
-        public int Tipo { get; set; }
+        public string Tipo { get; set; }
 
 
         public LibrosBiblia()
@@ -27,7 +27,7 @@ namespace RegistrarLibrosBiblicos.Entidades
             Fecha = DateTime.Now;
             Descripcion = string.Empty;
             Siglas = string.Empty;
-            Tipo = 0;
+            Tipo = string.Empty;
         }
     }
 }

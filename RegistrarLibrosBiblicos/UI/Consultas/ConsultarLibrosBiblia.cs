@@ -39,7 +39,7 @@ namespace RegistrarLibrosBiblicos.UI.Consultas
                     filtro = l => l.Siglas.Contains(CriterioTextBox.Text) && l.Fecha >= DesdeDateTimePicker.Value && l.Fecha <= HastaDateTimePicker.Value;
                     break;
                 case 4://Filtrando por Tipo del Libro y Fecha.
-                    filtro = l => l.Tipo.Equals(CriterioTextBox.Text) && l.Fecha >= DesdeDateTimePicker.Value && l.Fecha <= HastaDateTimePicker.Value;
+                    filtro = l => l.Tipo.Contains(CriterioTextBox.Text) && l.Fecha >= DesdeDateTimePicker.Value && l.Fecha <= HastaDateTimePicker.Value;
                     break;
             }
 
@@ -65,13 +65,6 @@ namespace RegistrarLibrosBiblicos.UI.Consultas
             {
                 CriterioTextBox.Visible = true;
                 CriterioLabel.Visible = true;
-            }
-
-            if (FiltroComboBox.SelectedIndex == 4)
-            {
-                MessageBox.Show("Si desea consultar los Libros del Viejo Testamento, digite un 0. " +
-                    "Si desea consultar los Libros del Nuevo Testamento, digite un 1.", "Información",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }

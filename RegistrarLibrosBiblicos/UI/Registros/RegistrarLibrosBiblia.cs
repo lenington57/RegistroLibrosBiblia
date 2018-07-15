@@ -27,7 +27,7 @@ namespace RegistrarLibrosBiblicos.UI.Registros
             librosBiblia.Fecha = FechaDateTimePicker.Value;
             librosBiblia.Descripcion = DescripcionTextBox.Text;
             librosBiblia.Siglas = SiglasTextBox.Text;
-            librosBiblia.Tipo = Convert.ToInt32(TipoComboBox.SelectedValue);
+            librosBiblia.Tipo = TipoComboBox.Text;
             return librosBiblia;
         }
 
@@ -74,7 +74,7 @@ namespace RegistrarLibrosBiblicos.UI.Registros
                 FechaDateTimePicker.Value = librosBiblia.Fecha;
                 DescripcionTextBox.Text = librosBiblia.Descripcion;
                 SiglasTextBox.Text = librosBiblia.Siglas;
-                TipoComboBox.SelectedValue = Convert.ToDecimal(librosBiblia.Tipo);
+                TipoComboBox.Text = librosBiblia.Tipo;
             }
             else
                 MessageBox.Show("No se encontró!!", "Falló",
