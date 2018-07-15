@@ -25,7 +25,7 @@ namespace RegistrarLibrosBiblicos.UI.Consultas
             int id;
             switch (FiltroComboBox.SelectedIndex)
             {
-                case 0://Filtrando por ID del Libro.
+                case 0://Filtrando por ID del Libro. (No le pongo la fecha porque como es único...)
                     id = Convert.ToInt32(CriterioTextBox.Text);
                     filtro = l => l.LibrosId == id;
                     break;
